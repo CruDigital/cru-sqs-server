@@ -10,6 +10,13 @@ and replace the items with your credentials.
 
 ## Installation
 
+### From NPM
+1. Run ````sudo npm install -g cru-sqs-processor````
+2. Copy ````config.json.example```` to ````config.json```` and change values
+3. Open ````src/main.js```` and change MongoDB and SQS services to yours
+4. Run ````cru-sqs-processor````
+
+### From Git
 1. Clone the repository to where you want to run the server
 2. Run ````npm install```` in the base directory to install dependencies
 3. Copy ````config.json.example```` to ````config.json```` and change values
