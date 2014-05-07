@@ -1,0 +1,3 @@
+*.komodo*
+/node_modules/
+/config.json

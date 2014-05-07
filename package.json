@@ -1,0 +1,25 @@
+{
+    "name":             "cru-sqs-server",
+    "version":          "0.1.0",
+    "author":           "Junior Cru <phpdev@juniorcru.com.au>",
+    "description":      "A queue processor and server for SQS handling",
+    "contributors": [
+        {
+            "name":     "Josh Girvin",
+            "email":    "josh.girvin@juniorcru.io"
+        }
+    ],
+    "preferGlobal": true,
+    "bin": {
+        "cru-sqs-server": "./src/main.js"
+    },
+    "scripts": {
+        "start":        "node ./src/main.js"
+    },
+    "dependencies": {
+        "aws-sdk":      "2.0.x",
+        "mongodb":      "1.4.x",
+        "express":      "4.1.x",
+        "body-parser":  "1.0.x"
+    }
+}
